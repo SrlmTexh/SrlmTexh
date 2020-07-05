@@ -1,0 +1,252 @@
+body{
+    font-family:'Titillium Web', sans-serif ;
+    background:whitesmoke;
+    margin: 0;
+}
+.container {
+    width: 1500px;
+    margin: 0 auto;
+    display: inherit;
+    align-items: inherit;
+    height: inherit;
+    justify-content: inherit ;
+    flex-wrap: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight:  normal;
+}
+h1{
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: normal;
+    letter-spacing: -.2 px;
+    color: white;
+    margin: 0 ;
+}
+h1 strong{
+    color: #026fff;
+}
+h2{
+    color: #026fff ;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+head{
+    background: blue;
+} 
+figure{
+    margin: 0;
+}
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.portfolio{
+    background: #fafafa;
+    padding: 20px;
+
+}
+.project{
+    border-radius: 10px;
+    margin-bottom: 15px ;
+    padding: 20px;
+    padding-top: 0;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 3px 5px 33px #888888;
+}
+.project strong {
+    font-family: 'Fjalla One', sans-serif;
+}
+.project-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.project-name {
+    margin: 10px 0;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.project-date {
+    margin: 10px 0;
+}
+.project-info {
+    margin: 10px 0;
+    font-size: 20px;
+}
+.project-details {
+    width: 500px;
+    height: 200px;
+    padding-bottom: 20px;
+}
+.project-imageWrapper {
+    width: 400px;
+}
+.hero {
+    height: 300px;
+   /*background-image: url('../images/Code_Wallpaper.jpg');*/ 
+    background-color: #1d252c ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 20px 20px 50px 10px #3e76d6;
+    /* #3281a3;*/
+}
+.hero-image {
+    object-fit: scale-down;
+}
+
+
+/* gris oscuro = #1d252c
+ gris claro = #626262
+ background gris = #1b2127 
+ celeste: #026fff*/
+.header {
+    background-color: #1b2127; /*gris oscuro*/
+    color: white ;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items:  center;
+    
+}
+
+/*heredamos la altura a los hijos de header con inherit*/
+.menu{
+    height: inherit;
+}
+.header ol{
+    display: flex;
+    height: inherit;
+}
+.header ol li{
+    height: inherit;
+}
+.header a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.event-title {
+    margin-left: 20px;
+}
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.certification {
+    margin: 10px;
+    width: 500px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f4fbff;
+    box-shadow: 3px 5px 10px #888888;
+}
+.certifications-detail {
+    margin: 20px 40px;
+    margin-top: -45px;
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+.certification-description {
+    text-align: left;   
+}
+.certification img {
+  width: 500px;
+  height: 200px; 
+  object-fit: cover;
+}
+.certification-url {
+    color: #056fff;
+     border: 1px solid;  
+     padding: 5px 20px;
+     text-decoration: none;
+     border-radius: 5px;
+}
+.contact {
+    background-color: #056fff;
+    padding: 5px 20px;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social {
+}
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+}
+.social-link.linkedin {
+    background-image: url('../images/linkedin-2.png');
+}
+.social-link.github {
+    background-image: url('../images/github.png');
+}
+.social-link.instagram {
+    background-image: url('../images/instagram.png');
+}
+.form-email input{
+    border-color: gray;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 10px 20px 10px 25px;
+    background-size: 150px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+.form-email button {
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+}
+.form-email h3{
+    font-family: 'Fjalla One', sans-serif;
+}
+.footer{
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0;
+}
+.footer img{
+    vertical-align: middle;
+    padding: 0 0 0 10px;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}

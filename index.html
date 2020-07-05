@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es"><!--El Idioma de nuestro Documento-->
+    <head>
+        <meta charset="UTF-8"> <!--Conjunto de caracteres que usaras(simbolos tildes, etc)-->
+        <title>Sergy Lopez</title>
+        <link rel="icon" type="image/png" href="images/FaviconPage.png"><!--enlazar el Favicon(icono del Tab)-->
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        </div>
+        <header class="header">
+            <div class="container">
+                <figure class="logo">
+                    <img src="images/LogoWeb.jpg" alt="Logo Cabecera" width="70"> <!--ALT, atributo de texto alternativo cuando la imagen no carga -->
+               </figure>
+            <nav class="menu"><!--barra de navegacion -->
+               <ol><!--listas ordenadas 1. xxxx-->
+                   <li><!-- listas-->
+                       <!--Podemos enlazar a las paginas creando un id a donde queremos apuntar y referenciar en el href donde la invocaremos-->
+                       <a class="link" href="#portafolio">Portafolio</a><!--links de enlace que se puede usar dentro fuera del navegador-->
+                   </li>
+                   <li>
+                       <a class="link" href="#experiencia">Experiencia</a><!--a = anchor, # indica que el enlace es interno, / es para enlace externo o a otra parte del sitio-->
+                   </li>
+                   <li>
+                       <a class="link" href="#contacto">Contactos</a>
+                   </li>
+               </ol>
+             </nav>
+            </div>
+        </header>
+        <!--Donde dividimos las secciones que haremos-->
+        <section class="hero"><!--en la industria se le pone Hero por se la parte mas llamativa del site-->
+           <div class="container">
+            <h1>
+                Hola! Soy <strong> Sergy Lopez </strong> <br> Estudiante de  <strong> CiberSeguridad </strong>  con <br/> pasion por el <strong> aprendizaje </strong> 
+            </h1>
+           <!--<img class="hero-hat" src="images/whitehat.png" alt="herohat" width="200" height="200">--> 
+            <img class="hero-image"  src="images/hero-image-2.png" alt="hero-image" width="500" height="300">
+           </div>
+
+        </section>
+        <section id="portafolio" class="portfolio">
+            <div class="container">
+                <h2>Portafolio (proyectos destacados)</h2>
+                <!--Aqui podremos varios  Datos de Habilidades los listamos por articles-->
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">ing. software y redes</h3>
+                        <h6 class="project-name">estudiante</h6>
+                        <p class="project-date"><small><strong>Fecha:</strong> 03/10/2018</small></p>
+                        <p class="project-info"><small><strong>Consulta en:</strong> sitio Web </small></p>
+                        <p>Diseñar proyectos en aplicaciones de software y redes de computadoras con base en estándares internacionales.
+                            Realizar la instalación física, el diseño y la programación de sistemas de cómputo digitales.
+                            Proteger los sistemas computacionales y de redes para dar seguridad ante ataques externos.</p>
+                    </div>
+                    <figure class="project-imageWrapper"><!--Wrapper o Container, terminos de la industria solo sirve de envoltura-->
+                        <img class="certification-image" src="images/Unitec_logo.png" alt="1er Experiencia" width="300">
+                    </figure>
+                </article>
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">Vista Entertaiment Solutions</h3>
+                        <h6 class="project-name">IT Consultant</h6>
+                        <p class="project-date"><small><strong>Fecha:</strong> 13/02/2019</small></p>
+                        <p class="project-info"><small><strong>Consulta en:</strong> sitio Web </small></p>
+                        <p>Soporte Remoto y presencial (1 mes enBrasil)
+                            Soluciones SDLC, solucion de Tickets en varios Idiomas.(segun el cliente)
+                            Soporte de 2do y 3er Nivel.
+                            Analisis e interpretacion de logs de sistema, registros y IIS.
+                            T-SQL Scripting
+                            Configuracion de redes ( DHCP, DNS, SSL, AD, TCP, TELNET)</p>
+                    </div>
+                    <figure class="project-imageWrapper"><!--Wrapper o Container, terminos de la industria solo sirve de envoltura-->
+                        <img class="project-image" src="images/Vista_Group_Logo.png" alt="Vista Logo" width="300">
+                    </figure>
+                </article>
+            </div>
+        </section>
+        <div class="container">
+            <h2 id="experiencia" class="event-title">Mas Sobre mi Experiencia</h2>
+        </div>
+  
+        <section class="event-list">
+            <div class="container">
+                <article class="certification">
+                    <figure class="certification-imageContainer"><!--Contenedor o Padre de lo de adentro-->
+                        <img src="images/certifications/diploma-dlp.png" width="300" height="300" alt="Imagen Experiencia">
+                    </figure>
+                    <div class="certifications-detail">
+                        <h3 class="certification-title">Titulo de Evento o Experiencia</h3>
+                        <p class="certification-description">Descripcion del Evento o Experiencia</p>
+                        <a class="certification-url" href="https://platzi.com/@Sergy_EgH/" target="_blank"><!--target es para que el enlace se abra en un nuevo tab-->
+                            Enlace donde consultar</a>
+                    </div>
+                </article>
+                <article class="certification">
+                    <figure class="certification-imageContainer"><!--Contenedor o Padre de lo de adentro-->
+                        <img src="images/certifications/diploma-ethical-hacking.png" width="300" height="300" alt="Imagen Experiencia">
+                    </figure>
+                    <div class="certifications-detail">
+                        <h3 class="certification-title">Titulo de Evento o Experiencia</h3>
+                        <p class="certification-description">Descripcion del Evento o Experiencia</p>
+                        <a class="certification-url" href="https://platzi.com/@Sergy_EgH/" target="_blank"><!--target es para que el enlace se abra en un nuevo tab-->
+                            Enlace donde consultar</a>
+                    </div>
+                </article>
+                <article class="certification">
+                    <figure class="certification-imageContainer"><!--Contenedor o Padre de lo de adentro-->
+                        <img src="images/certifications/diploma-c-plus-plus.png" width="300" height="300" alt="Imagen Experiencia">
+                    </figure>
+                    <div class="certifications-detail">
+                        <h3 class="certification-title">Titulo de Evento o Experiencia</h3>
+                        <p class="certification-description">Descripcion del Evento o Experiencia</p>
+                        <a class="certification-url" href="https://platzi.com/@Sergy_EgH/" target="_blank"><!--target es para que el enlace se abra en un nuevo tab-->
+                            Enlace donde consultar</a>
+                    </div>
+                </article>
+                <article class="certification">
+                    <figure class="certification-imageContainer"><!--Contenedor o Padre de lo de adentro-->
+                        <img src="images/certifications/diploma-malware.png" width="300" height="300" alt="Imagen Experiencia">
+                    </figure>
+                    <div class="certifications-detail">
+                        <h3 class="certification-title">Titulo de Evento o Experiencia</h3>
+                        <p class="certification-description">Descripcion del Evento o Experiencia</p>
+                        <a class="certification-url" href="https://platzi.com/@Sergy_EgH/" target="_blank"><!--target es para que el enlace se abra en un nuevo tab-->
+                            Enlace donde consultar</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="contacto" class="contact">
+            <div class="container">
+                <form action="" class="form-email"><!--Formularios, "action" es a nivel BackEnd, osea a donde envias esa informacion, config con JS o directo BackEnd o por carpeta-->
+                    <!--Mayor funcion cuando tenemos un input tipo checkBock que lo identifique <label for="email">Dejanos tus Datos</label>-->
+                    <h3> Trabajamos Juntos? </h3>
+                    <input type="text" placeholder="Dejame tu email"  id="email"><!--Type existen varios (text, mail, password,submit, etc)-->
+                                                                                        <!--Value es algun mensaje borrable que puedes dejar por default en el campo-->
+                    <button>Enviar</button>
+                 <!--otra manera de crear un boton <input type="submit" value="BotonText">-->   
+                </form>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/sergy-lopez-3aa0b0183" class="social-link linkedin"></a>
+                    <a href="https://github.com/SrlmTexh/" class="social-link github"></a>
+                    <a href="https://www.instagram.com/sergy.egh?r=nametag" class="social-link instagram"></a>
+                </div>
+            </div>
+        </section> 
+        <footer class="footer ">
+            <div class="container">
+                <div>
+                    <p>Curso de Desarrolo Web Online 2020 <img src="images/platzi.png" width="80" alt="Platzi Image"></p>
+                </div>
+                <div>
+                    <p>Designed with < 3 by <a href="https://www.linkedin.com/in/sergy-lopez-3aa0b0183">Sergy Lopez</a> </p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
