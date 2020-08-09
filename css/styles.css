@@ -94,6 +94,11 @@ ol,
     box-shadow: 3px 5px 33px #888888;
     flex-wrap: wrap;
 }
+.project-course,
+    .project-date,
+        .project-info {
+            margin: 10px 0;
+}
 .project strong {
     font-family: 'Fjalla One', sans-serif;
 }
@@ -116,12 +121,15 @@ ol,
     font-size: 20px;
 }
 .project-details {
-    width: 500px;
-    height: 200px;
-    padding-bottom: 20px;
+    width: 50%;
+    /*height: 200px;
+    padding-bottom: 20px;*/
 }
 .project-imageWrapper {
-    width: 400px;
+    width: 50%;
+}
+.project-imageWrapper img{
+    max-width: 100%;
 }
 
 .menu{
@@ -143,6 +151,10 @@ ol,
     align-items: center;
     padding: 0 10px;
 }
+
+.event-list-title {
+    margin-left: 20px;
+  }
 .event-title {
     margin-left: 20px;
 }
@@ -152,8 +164,8 @@ ol,
     justify-content: center;
 }
 .certification {
-    margin: 10px;
-    width: 500px;
+    margin: 1%;
+    width: 48%;
     flex-shrink: 0;
     border-radius: 10px;
     overflow: hidden;
@@ -271,10 +283,51 @@ ol,
     .header .logo {
         text-align: center;
     }
-    
+    .project{
+        display: block;
+    }
+    .project-imageWrapper{
+        width: auto;
+        text-align: center;
+    }
+    .project-details{
+        width: auto;
+        font-size: 16px;
+    }
+    .project-name, .project-date, .project-info{
+        margin: .4em 0;
+    }
+    .project-title{
+        font-size: 1.5em;
+        margin-bottom: .3em;
+    }
+    .project-info{
+        font-size: 0.8em;
+    }
+    .project-name{
+        font-size: 1em;
+    }
+    .project-date{
+        font-size: 1em;
+    }
+    .certification {
+        width: auto;
+        flex-shrink: initial;
+    }
+    .certification img{
+        width: 100%;
+        /*object-position: 25% 25%*/
+    }
 }
 @media screen and (max-width: 480px){
-
+    .project-details{
+        width: auto;
+        font-size: 12px;
+    }
+    .certifications-detail{
+        margin: -2em .5em .5em;
+        padding: 1em;
+    }
     
 }
 @media screen and (max-width: 320px){
