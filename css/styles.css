@@ -158,7 +158,7 @@ ol,
     padding-bottom: 20px;*/
 }
 .project-imageWrapper {
-    width: 50%;
+  margin: 10px 10px;
 }
 .project-imageWrapper img{
     max-width: 100%;
@@ -216,7 +216,7 @@ ol,
     text-align: left;   
 }
 .certification img {
-  width: 500px;
+  width: 100%;
   height: 200px; 
   object-fit: cover;
 }
